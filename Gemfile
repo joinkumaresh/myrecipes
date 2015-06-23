@@ -18,7 +18,7 @@ group :development, :test do
 end
 
 group :production do
-	gen 'pg'
+	gem 'pg'
 	gem 'rails_12factor'
 end
 
